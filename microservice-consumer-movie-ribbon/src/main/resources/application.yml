@@ -1,10 +1,10 @@
 spring:
   application:
-    name: microservice-consumer-movie
+    name: microservice-consumer-movie-ribbon
 server:
-  port: 8081
-user:
-  userServerPath: http://localhost:8080/simple/
+  port: 8082
+#user:
+#  userServerPath: http://localhost:8080/simple/
 eureka:
   client:
     healthcheck:
