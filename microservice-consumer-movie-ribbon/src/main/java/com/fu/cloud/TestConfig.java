@@ -1,4 +1,4 @@
-package com.fu.config;
+package com.fu.cloud;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -9,6 +9,7 @@ import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RandomRule;
 
 @Configuration
+@ExcludeFormComponentScan
 public class TestConfig {
 	@Autowired
 	IClientConfig iClientConfig;
