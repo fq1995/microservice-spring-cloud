@@ -6,7 +6,7 @@
 	<artifactId>microservice-consumer-movie-ribbon</artifactId>
 	<packaging>jar</packaging>
 
-	<name>microservice-consumer-movie</name>
+	<name>microservice-consumer-movie-ribbon</name>
 	<description>Demo project for Spring Cloud</description>
 
 	<parent>
