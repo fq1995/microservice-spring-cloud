@@ -14,6 +14,3 @@ eureka:
   instance:
     prefer-ip-address: true
  #   instance-id: ${spring.application.name}:${spring.application.name}:${server.port}
-microservice-privider-user:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
