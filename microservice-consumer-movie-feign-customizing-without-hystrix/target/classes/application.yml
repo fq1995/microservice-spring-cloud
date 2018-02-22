@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: microservice-consumer-movie-feign-customizing
+server:
+  port: 8082
+#user:
+#  userServerPath: http://localhost:8080/simple/
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://user:password@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+ #   instance-id: ${spring.application.name}:${spring.application.name}:${server.port}
+logging:
+  level:
+    com.fu.cloud.feign.FeignClient2: debug
+    com.fu.cloud.feign.UserFeignClient: debug
+  file: log/logging.log
+management:
+  port: 8008
+  security:
+    enabled: false 
+feign:
+  hystrix:
+    enabled: true
