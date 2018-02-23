@@ -23,6 +23,7 @@
 		<module>microservice-consumer-movie-feign-with-hystrix-factory</module>
 		<module>microserveice-discovery-eureka</module>
 		<module>microserveice-discovery-eureka-ha</module>
+		<module>microserveice-hystrix-dashboard</module>
 	</modules>
 
 	<parent>
